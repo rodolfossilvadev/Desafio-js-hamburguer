@@ -10,14 +10,16 @@
 
 <br>
 <p>Este é um projetopara aprimorar e conhecer melhor algumas funcionalidades do JavaScript:</p>
+
 <ul>
   <li>forEach</li>
   <li>reduce</li>
   <li>map</li>
   <li>filter</li>
 </ul>
+https://rodolfossilvadev.github.io/Prime-Burger/
 
 <h2 align="center">
-<img src="" 
+<img src="https://github.com/rodolfossilvadev/Prime-Burger/blob/main/img/background.jpg?raw=true" 
   height="300" >
 </h2>
