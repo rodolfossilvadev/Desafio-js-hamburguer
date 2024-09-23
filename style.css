@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;   
+ font-family: "Rowdies", sans-serif;
+}
+
+body{
+    background-color: rgb(90, 21, 0);
+
+}
+h1{
+    color: white;
+    text-align: center;
+    margin: 10px auto;
+    width: 350px;
+    padding: 5px;
+    font-size: 40px;
+}
+
+.container{
+   
+    margin: 10px 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    gap: 20px;
+}
+
+button{
+    background-color:rgb(255, 155, 5);
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    color: black;
+    font-size: 20px;
+   font-weight: 500;
+   transition: 0.8s;
+   width: 110px;
+   box-shadow: 3px 3px 3px black;
+}
+
+button:hover{
+    opacity: 0.8;
+    transform: scale(1.3) translateY(-3px)
+}
+
+ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    gap: 30px;
+    justify-content: center;
+    transition: 0.8s;
+    
+}
+li{
+    border: 2px solid rgb(255, 155, 5) ;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.8s;
+}
+
+img{
+    width: 100%;
+}
+p{
+    color: white;
+}
+.item-price{
+    font-weight: bold;
+    color: rgb(255, 155, 5);
+}
+
